@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAZE Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>LAZE BELAH Language Translator</h1>
+    <div class="translating-box">
+        <div class="boxes">
+            
+            <textarea name="" id="inputLang" placeholder="enter a text..."></textarea>
+            <textarea name="" id="outputLang" placeholder="transilating..."></textarea>
+
+        </div>
+        <div options>
+            <select name="" id="fromLang">
+               
+                 <option value="en">English</option>
+                  <option value="de">Germany</option>
+                   <option value="fr">french</option>
+                 <option value="es">Spanish</option>
+                 <option value="kin">Ikinyarwanda</option>
+            </select>
+            <span>-></span>
+            <select name="" id="toLang">
+               
+                 <option value="hi">Hindi</option>
+                  <option value="de">Germany</option>
+                   <option value="fr">french</option>
+                    <option value="es">Spanish</option>
+                    <option value="kin">Kinyarwanda</option>
+            </select>
+
+        </div>
+        <button onclick="translateText()">Transilate Text</button>
+    </div>
+    <footer>&copy;Developed by Beland</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
